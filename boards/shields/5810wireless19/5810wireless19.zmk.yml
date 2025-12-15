@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: 5810wireless19
+name: 5810wireless19
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - 5810wireless19_left
+  - 5810wireless19_right

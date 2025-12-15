@@ -1,0 +1,4 @@
+config SHIELD_5810WIRELESS19_LEFT
+    def_bool $(shields_list_contains,5810wireless19_left)
+config SHIELD_5810WIRELESS19_RIGHT
+    def_bool $(shields_list_contains,5810wireless19_right)

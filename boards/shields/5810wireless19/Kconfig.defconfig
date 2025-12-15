@@ -1,0 +1,14 @@
+
+if SHIELD_5810WIRELESS19_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "5810wireless19"
+
+endif
+
+if SHIELD_5810WIRELESS19_LEFT || SHIELD_5810WIRELESS19_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
